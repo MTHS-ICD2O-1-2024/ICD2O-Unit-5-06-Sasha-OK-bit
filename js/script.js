@@ -10,7 +10,11 @@ function calculaterandomnumber () {
   const Results1 = parseInt(document.getElementById('firstvalue').value)
   const Results2 = parseInt(document.getElementById('secondvalue').value)
 
+  while (i < (Results1*Results2)) {
+    text += "The number is " + i;
+    i++;
+}
 
   }
 
-}
+
