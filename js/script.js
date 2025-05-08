@@ -6,15 +6,16 @@
 
 
 function calculaterandomnumber () {
-  Let
   const Results1 = parseInt(document.getElementById('firstvalue').value)
   const Results2 = parseInt(document.getElementById('secondvalue').value)
+  const number = Results1 * Results2
 
-  while (i < (Results1*Results2)) {
-    text += "The number is " + i;
-    i++;
-}
 
+  while (i < number) {
+    text = text + "The number is " + i;
+    i = i + 1 ;
   }
+  document.getElementById("demo").innerHTML = text;
+}
 
 
